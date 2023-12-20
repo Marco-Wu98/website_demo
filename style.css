@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-info {
+    height: 80px;
+    padding-left: 99px !important;
+    padding-right: 99px !important;
+}
+
+.header-brand {
+    font-weight: 500;
+    color: #dd7b72;
+    /* margin-left: 70px; */
+    margin-top: 55px;
+}
+
+.header-logo {
+    height: 88%;
+    width: 80px;
+    margin-left: 180px;
+}
+
+.header-search {
+    width: 270px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-color: #C4CBCF;
+}
+
+.header-search__input {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    flex: 1;
+    /* position: relative; */
+    border-right: 1px solid rgb(192, 183, 183);
+
+}
+
+.header-search__icon {
+    padding: 0 8px;
+
+}
+
+.header-search__icon:hover {
+    cursor: pointer;
+}
+
+.header-navbar {
+    background-color: #0DC0C6;
+    height: 37px;
+}
+
+.header-navbar__list {
+    list-style: none;
+    margin: 0;
+}
+
+.header-navbar__item {
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    /* font-weight: 500; */
+    padding-top: 6px;
+    color: white;
+
+}
+
+.header-navbar__item:hover {
+    background-color: orange;
+    font-size: 1.1rem;
+    padding: 3px;
+    font-weight: 500;
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+
+.body-p1 {
+    /* height: 500px; */
+}
+
+.body-img-1 {
+    object-fit: cover;
+    padding: 6px 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: all linear 0.2s;
+
+}
+
+.body-img-2 {
+    object-fit: cover;
+    padding: 6px 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+    transition: all linear 0.2s;
+
+}
+
+
+.body-img-1:hover {
+    scale: 1.03;
+    object-fit: cover;
+    transition: all linear 0.2s;
+}
+
+.body-img-2:hover {
+    scale: 1.03;
+    object-fit: cover;
+    transition: all linear 0.2s;
+}
+
+.card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+h5.card-title {
+    color: red;
+}
+
+.btn.btn-customize {
+    background-color: #0DC0C6;
+}
+
+.btn.btn-customize:hover {
+    background-color: #0b8a8f;
+}
