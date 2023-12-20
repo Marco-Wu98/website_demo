@@ -1,0 +1,64 @@
+/* Small <= 768px */
+
+@media screen and (max-width: 768px) {
+    /* .header-info{
+        
+    }
+
+    .header-brand{
+        display: none;
+    }
+
+    .header-logo{
+        margin-left: 0;
+        display: none;
+    }
+
+    .header-navbar__list{
+        display: none;
+    }
+
+    .header-navbar__item{
+        display: none;
+    } */
+}
+
+/* Medium <= 992px */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* .header-info {
+        padding: 0 300px !important;
+        position: relative;
+    }
+
+    div .header-logo {
+        position: absolute;
+        top: 0;
+        left: calc(50% - 30px);
+
+    } */
+
+    .header-logo{
+        margin-left: 40px;
+    }
+}
+
+
+
+/* Large > 1200 */
+
+@media screen and (min-width: 1200px) {
+    .header-info {
+        padding: 0 180px !important;
+        position: relative;
+    }
+
+    div .header-logo {
+        position: absolute;
+        top: 0;
+        left: calc(50% - 30px);
+
+    }
+
+
+
+}

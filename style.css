@@ -4,29 +4,30 @@
 
 .header-info {
     height: 80px;
-    padding-left: 99px !important;
-    padding-right: 99px !important;
+    /* padding: 0 180px !important; */
 }
 
 .header-brand {
     font-weight: 500;
     color: #dd7b72;
-    /* margin-left: 70px; */
-    margin-top: 55px;
+    /* margin-left: 200px; */
+    /* margin-top: 55px; */
 }
 
 .header-logo {
     height: 88%;
-    width: 80px;
-    margin-left: 180px;
+    width: 100px;
+    /* margin-left: 180px; */
 }
 
 .header-search {
-    width: 270px;
+    
+    width: 300px;
     height: 32px;
     border: 1px solid black;
     border-radius: 2px;
     border-color: #C4CBCF;
+    /* margin-right: 10px; */
 }
 
 .header-search__input {
@@ -50,8 +51,43 @@
 
 .header-navbar {
     background-color: #0DC0C6;
-    height: 37px;
+    height: 80px;
 }
+
+.header-menu .btn {
+    width: 40px;
+    height: 40px;
+}
+
+.header-menu .offcanvas.offcanvas-start {
+    width: 50%;
+}
+
+.offcanvas-body__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.offcanvas-body__item{
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid rgb(100, 89, 89);
+}
+
+.offcanvas-body__item:hover{
+    padding-left: 5px;
+    color: #0DC0C6;
+    transition: linear 0.2s;
+}
+
+.offcanvas-body__item {}
 
 .header-navbar__list {
     list-style: none;
@@ -60,19 +96,20 @@
 
 .header-navbar__item {
     height: 100%;
-    width: 100px;
+    width: 160px;
     text-align: center;
     /* font-weight: 500; */
-    padding-top: 6px;
+    padding-top: 26px;
+    font-size: 1.3rem;
     color: white;
 
 }
 
 .header-navbar__item:hover {
     background-color: orange;
-    font-size: 1.1rem;
-    padding: 3px;
-    font-weight: 500;
+    /* font-size: 1.1rem; */
+    /* padding: 3px; */
+    /* font-weight: 500; */
     transition: linear 0.2s;
     cursor: pointer;
 }
@@ -131,3 +168,15 @@ h5.card-title {
 .btn.btn-customize:hover {
     background-color: #0b8a8f;
 }
+
+.body-3__store-info img{
+    width: 100%;
+    object-fit: contain;
+}
+
+#inputAddress-4{
+    height: 100px;
+}
+
+
+
