@@ -21,6 +21,9 @@
     .header-navbar__item{
         display: none;
     } */
+    .header-search{
+        width: 280px !important;
+    }
 }
 
 /* Medium <= 992px */
@@ -40,6 +43,8 @@
     .header-logo{
         margin-left: 40px;
     }
+
+   
 }
 
 
